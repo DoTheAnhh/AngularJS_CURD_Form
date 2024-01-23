@@ -1,0 +1,20 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "ma": "PH12345",
+      "ten": "Thế Anh",
+      "tuoi": "20",
+      "gioitinh": "Nam",
+      "diachi": "Hà Nội"
+    },
+    {
+      "ma": "PH2232",
+      "ten": "Hiếu",
+      "tuoi": 20,
+      "gioitinh": "Nam",
+      "diachi": "Lào Cai",
+      "id": 2
+    }
+  ]
+}

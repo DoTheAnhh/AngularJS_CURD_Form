@@ -1,0 +1,23 @@
+<table class="table container "> 
+    <thead>
+        <th>Mã</th>
+        <th>Tên</th>
+        <th>Tuổi</th>
+        <th>Giới tính</th>
+        <th>Địa chỉ</th>
+        <th>Thao tác</th>
+    </thead>
+    <tbody>
+        <tr ng-repeat="us in listUser">
+            <td>{{us.ma}}</td>
+            <td>{{us.ten}}</td>
+            <td>{{us.tuoi}}</td>
+            <td>{{us.gioitinh}}</td>
+            <td>{{us.diachi}}</td>
+            <td>
+                <a class="btn btn-warning" href="#!/update/{{us.id}}">Sửa</a>
+                <a class="btn btn-danger" ng-click="delete(us.id)">Xóa</a>
+            </td>
+        </tr>
+    </tbody>
+</table>
