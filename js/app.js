@@ -14,6 +14,10 @@ myApp.config(function($routeProvider){
             templateUrl: "views/update.html",
             controller: UpdateController
         })
+        .when('/detail/:id', {
+            templateUrl: "views/detail.html",
+            controller: DetailController
+        })
         .otherwise({
             redirectTo: '/list'
         })
